@@ -13,7 +13,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 * You  should run  the  script  in order  to see  the  result  in  many   ways   but  it is  preferable  in the  next    way: 
   - you  will use  a     console  variable  called tidy_mean or  what    other name you wan't
   - you   will store   in this  variable  the  result  of   runing  the  script   by typing :
-  - ,,tidy_mean=run_analysis.R()
+  - ,,tidy_mean=run_analysis.R()"
   
 *  You could   use   View(tidy_mean) to  visualize  the result
 *  you should  see something  like  in the link    https://docs.google.com/spreadsheets/d/1I4X51Mznair34rjjRE-gDUjxgf_DpdIaCzBnibp8sz4/edit?usp=sharing
