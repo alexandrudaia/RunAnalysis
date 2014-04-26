@@ -7,6 +7,8 @@
 * In order to   run succesfully  the run_analysys  script  you   should  first download the  data   for
 werable  computing  from :
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+*More information  about  the  data  set  with full description you can find at :
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 * After that  you  should  unzip   the data and  set    your  R workspace  to  the main folder  of  the unziped  data
   who is  ,, UCI  HAR  Dataset"
@@ -15,8 +17,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
   - you   will store   in this  variable  the  result  of   runing  the  script   by typing :
   - ,,tidy_mean=run_analysis.R()"
   
-*  You could   use   View(tidy_mean) to  visualize  the result
-*  you should  see something  like  in the link    https://docs.google.com/spreadsheets/d/1I4X51Mznair34rjjRE-gDUjxgf_DpdIaCzBnibp8sz4/edit?usp=sharing
+*  You could   use   View(tidy_mean) to  visualize  the result.
+*  You should  see something  like  in the link   : https://docs.google.com/spreadsheets/d/1I4X51Mznair34rjjRE-gDUjxgf_DpdIaCzBnibp8sz4/edit?usp=sharing
 
 Good luck!!!:)
  
