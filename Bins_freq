@@ -1,0 +1,23 @@
+bins
+data=read.table(   )
+d=data[1]
+h=hist(d,breaks = seq(min(d), max(d), l=11)) 
+c(do.call("cbind",myList)) 
+
+
+
+exp:
+
+Hey Sina,
+This is because R uses an algorithm to define the breaks or number of BINs based on the data set. So, even if you give 10 , it is quite likely that R may use 8 BINs or any other number of BINs based on the algorithm it follows. 
+
+The question in assignment asks for 10 BINs. Inorder for R to use exactly the number of BINs you want and override its internal algorithm of calculating the number of BINs, you must define the breaks as a sequence. Remember BINs is equivalent to the interval and breaks is the boundaries. So, 10 BINs (intervals) would mean 11 breaks or vice versa. 
+
+So, here is an example you could use ..here we have defined the break as a sequence. In the sequence, we have also defined the min value of the range, the maximum value of range and the total boundaries we need within that range.
+breaks = seq(min(e$V1), max(e$V1), l=11)
+
+hist(iris$V1,breaks = seq(min(e$V1), max(e$V1), l=11))                                    # where l= number of boundaries giving l-1 BINs
+
+$counts should now give you 10 frequencies which you can use for the answer. Make sure that you type the frequencies versus copying and pasting them.
+
+I hope this would help.
